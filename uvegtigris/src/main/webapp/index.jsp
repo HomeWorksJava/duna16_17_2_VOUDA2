@@ -18,19 +18,19 @@
             italService serviceItal = new italServiceImpl();
         %>
         <header>
-            <h1><%out.print("ÜVEGTIGRIS RAKTÁRKÉSZLET NYILVÁNTARTÓ");%></h1>
+            <h1>ÜVEGTIGRIS RAKTÁRKÉSZLET NYILVÁNTARTÓ</h1>
         </header>
         <table align="center">
             <tr>
-                <td><h2><% out.print("ÉTELEK"); %></h2></td>
+                <td><h2>ÉTELEK</h2></td>
             </tr>
-            <tr>
-                <td><% out.print("Ételfajta: "); %></td>
-                <td><% out.print("ID: "); %></td>
-                <td><% out.print("Gyártó: "); %></td>
-                <td><% out.print("Neve: "); %></td>
-                <td><% out.print("Mennyiség: "); %></td>
-                <td><% out.print("Mértékegység: "); %></td>
+            <tr class="adat">
+                <td>Ételfajta:</td>
+                <td>ID:</td>
+                <td>Gyártó:</td>
+                <td>Neve:</td>
+                <td>Mennyiség:</td>
+                <td>Mértékegység:</td>
             </tr>
             <tr>
                 <td><% out.print(serviceEtel.getEtelById(0).getEtelfajta()); %></td>
@@ -42,15 +42,15 @@
             </tr>
 
              <tr>
-                <td><h2 class="italok"><% out.print("ITALOK"); %></h2></td>
+                <td><h2 class="italok">ITALOK</h2></td>
             </tr>
-            <tr>
-                <td><% out.print("Italfajta: "); %></td>
-                <td><% out.print("ID: "); %></td>
-                <td><% out.print("Gyártó: "); %></td>
-                <td><% out.print("Neve: "); %></td>
-                <td><% out.print("Mennyiség: "); %></td>
-                <td><% out.print("Mértékegység: "); %></td>
+            <tr class="adat">
+                <td>Italfajta:</td>
+                <td>ID:</td>
+                <td>Gyártó:</td>
+                <td>Neve:</td>
+                <td>Mennyiség:</td>
+                <td>Mértékegység:</td>
             </tr>
             <tr>
                 <td><% out.print(serviceItal.getItalById(0).getItalfajta()); %></td>
