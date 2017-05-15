@@ -1,0 +1,17 @@
+uvegtigris\datamodel\keszletLap.class
+uvegtigris\datamodel\ital.class
+uvegtigris\datamodel\keszletTipusLap.class
+uvegtigris\service\memory\dataStore.class
+uvegtigris\service\memory\italServiceImpl.class
+uvegtigris\datamodel\italLap.class
+uvegtigris\datamodel\etel.class
+uvegtigris\datamodel\mennyiseg.class
+uvegtigris\datamodel\raktarKeszlet.class
+uvegtigris\service\memory\keszletLapServiceImpl.class
+uvegtigris\datamodel\etelLap.class
+uvegtigris\service\memory\etelServiceImpl.class
+uvegtigris\service\memory\raktarKeszletServiceImpl.class
+uvegtigris\datamodel\ar.class
+uvegtigris\service\api\italService.class
+uvegtigris\service\api\etelService.class
+uvegtigris\service\api\keszletLapService.class

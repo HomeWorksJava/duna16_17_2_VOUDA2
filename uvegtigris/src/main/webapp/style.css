@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    background-image: url("bg.jpg");
+    background-size: cover;
+    font-family: arial;
+}
+
+header {
+    background: #235A20;
+    color: white;
+    padding: 15px 10% 10px 10%;
+    box-shadow: 0px 0px 6px black;
+}
+
+header h1 {
+    margin: 0;
+    text-align: center;
+}
+
+td {
+    padding: 0 0 20px 0;
+}
+
+table {
+    background: #FFFFFF;
+    color: #235A20;
+    padding: 0px 10px 10px 10px;
+    margin-top: 130px;
+    box-shadow: 0px 0px 6px #A4A4A4;
+    width: 60%;
+
+}
+
+.italok {
+    padding: 40px 0 0 0;
+}
